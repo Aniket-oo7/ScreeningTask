@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .heading-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #19946b;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .heading-content {
+    margin: 0 10px;
+  }
+  .container{
+    width: fit-content;
+    height: fit-content;
+  
+  }
+  .cost{
+    font-size: 2vh;
+  }
+  .product-box{
+    width: 30vw;
+    cursor: pointer;
+    height: fit-content;
+  
+    border: #eae6e6 solid 1px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: medium;
+  }
+  .displayContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+  }
+  .product{
+    line-height: 1px;
+   
+  }
+  .radio-box{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 1vh;
+  }
+  .discount{
+    margin-left: 6vh;
+  }
+  .description{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+  }
+  .dropdownBox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+  }
+  .sizeDropdown{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  }
+  .colorDropdown{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  } 
+  
+  .shipping{
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui;
+    width: 100%;
+  }
+  .shipping p{
+    font-size: 2.5vh;
+  }
+  button{
+    width: 100%;
+    height: 20%;
+    background-color: #19946b;
+    color: white;
+    font-family: system-ui;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    height: 6vh;
+  }
+  .ad{
+    margin-left: 55%;
+  }
+  @media screen and (max-width: 800px){
+    .product-box{
+      width: 60vw;
+    }
+    
+  }
+  @media screen and (min-width: 800px){
+    .container{
+      margin: 10vh 30vw;
+    }
+  }
+  
+  
+  
+  

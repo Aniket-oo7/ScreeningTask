@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FigmaScreening</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="heading-container">
+      <div class="line"></div>
+      <p class="heading-content">Bundle and Save</p>
+      <div class="line"></div>
+    </div>
+    <div class="product-box" onclick="toggleDescription(this)">
+
+      <div class="displayContent">
+        <div class="radio-box">
+          <input type="radio" id="productRadio" />
+          <div class="product">
+            <p>1 Pair</p>
+            <h5 class="cost">DKK 195.59</h5>
+          </div>
+        </div>
+        <div class="discount">
+          <h5>50 % off</h5>
+        </div>
+      </div>
+      <div class="description" style="display: none;">
+        <div class="dropdownBox">
+          <div class="sizeDropdown">
+            <label for="size">Size</label>
+            <select id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <div class="colorDropdown">
+            <label for="color">Color</label>
+            <select id="color">
+              <option value="orange">Orange</option>
+              <option value="marun">Marun</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 2nd Box -->
+
+    <div class="product-box" onclick="toggleDescription(this)">
+     <div class=" displayContent">
+      <div class="radio-box">
+        <input type="radio" id="productRadio" />
+        <div class="product">
+          <p>2 Pair</p>
+          <h5 class="cost">DKK 348.33</h5>
+        </div>
+      </div>
+      <div class="discount">
+        <h5>40 % off</h5>
+      </div>
+    </div>
+    <div class="description" style="display: none;">
+      <div class="dropdownBox">
+        <div class="sizeDropdown">
+          <label for="size">Size</label>
+          <select id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+          <select id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <div class="colorDropdown">
+          <label for="color">Color</label>
+          <select id="color">
+            <option value="orange">Orange</option>
+            <option value="marun">Marun</option>
+            <option value="green">Green</option>
+          </select>
+          <select id="color">
+            <option value="orange">Orange</option>
+            <option value="marun">Marun</option>
+            <option value="green">Green</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 3rd Box -->
+  <div class="product-box" onclick="toggleDescription(this)">
+    <div class="displayContent">
+      <div class="radio-box">
+        <input type="radio" id="productRadio" />
+        <div class="product">
+          <p>3 Pair</p>
+          <h5 class="cost">DKK 459.59</h5>
+        </div>
+      </div>
+      <div class="discount">
+        <h5>60 % off</h5>
+      </div>
+    </div>
+    <div class="description" style="display: none;">
+      <div class="dropdownBox">
+        <div class="sizeDropdown">
+          <label for="size">Size</label>
+          <select id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+          <select id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+          <select id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <div class="colorDropdown">
+          <label for="color">Color</label>
+          <select id="color">
+            <option value="orange">Orange</option>
+            <option value="marun">Marun</option>
+            <option value="green">Green</option>
+          </select>
+          <select id="color">
+            <option value="orange">Orange</option>
+            <option value="marun">Marun</option>
+            <option value="green">Green</option>
+          </select>
+          <select id="color">
+            <option value="orange">Orange</option>
+            <option value="marun">Marun</option>
+            <option value="green">Green</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="shipping">
+    <p>Free 2 day shipping</p>
+    <h5 id="total"></h5>
+  </div>
+
+  <button>+ Add To Cart</button>
+  <div class="ad">@powered by pumper</div>
+  </div>
+
+<script src='script.js'></script>
+  
+  
+</body>
+
+</html>
